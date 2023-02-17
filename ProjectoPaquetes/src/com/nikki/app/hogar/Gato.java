@@ -1,2 +1,4 @@
-package com.nikki.app.hogar;public class Gato {
+package com.nikki.app.hogar;
+
+public class Gato {
 }
