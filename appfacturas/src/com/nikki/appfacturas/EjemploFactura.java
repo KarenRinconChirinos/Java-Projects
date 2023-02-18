@@ -12,14 +12,13 @@ public class EjemploFactura {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("ingrese la descripcion de la factura");
-        String descripcion = scanner.next();
-        Factura factura = new Factura(descripcion, cliente);
+        Factura factura = new Factura(scanner.nextLine(), cliente);
 
         Producto producto;
-        for(int i = 0; i<3; i++){
+        for(int i = 0; i<2; i++){
             producto = new Producto();
             System.out.print("Ingrese el producto N°" + producto.getCodigo() + ": ");
-            producto.setNombre(scanner.next());
+            producto.setNombre(scanner.nextLine());
 
             System.out.print("Ingresa el precio: ");
             producto.setPrecio(scanner.nextFloat());
@@ -28,7 +27,8 @@ public class EjemploFactura {
 
             factura.addItemFactura(new ItemFactura(scanner.nextInt(), producto));
             System.out.println();
+            scanner.nextLine();
         }
-        System.out.println(factura);// por debajo tiene el toString que invoca el generarfactura
+        System.out.println(factura.toString());// por debajo tiene el toString que invoca el generarfactura
     }
 }

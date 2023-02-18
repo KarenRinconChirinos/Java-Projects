@@ -61,10 +61,7 @@ public class Factura {
 
     public float calcularTotal(){
         float total = 0.0f;
-        for(int i = 0; i<this.itemFacturas.length; i++ ){
-            if(itemFacturas[i] == null){
-                continue;
-            }
+        for(int i = 0; i<indiceItemFactura; i++ ){
             total+= itemFacturas[i].calcularImporte();
         }
         return total;
@@ -72,26 +69,23 @@ public class Factura {
 
     public String generarDetalle(){
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd  MMMM, yyyy");
-        String detalle = "\nFactura No°: " + folio;
+        String detalle = "\nFactura No.: " + folio;
         detalle += "\nfolio: " + folio;
         detalle += "\nCliente: " + cliente.getNombre();
         detalle += "\nNumero fiscal: " + cliente.getNumFiscal();
         detalle += "\nDescripcion: " + descripcion;
         detalle += "\n";
         detalle += "\n";
-        detalle += "\n#\tNombre\t$\tCant.\tTotal\n";
+        detalle += "\n#\tNombre\t$\t\tCant.\tTotal\n";
 
-        for(ItemFactura item: this.itemFacturas){
-            if(item == null){
-                continue;
-            }
+        for(int i = 0; i<indiceItemFactura; i++){
             /*
                     detalle += "\n"+ item.getProducto().getCodigo()+"\t"+
                     item.getProducto().getNombre()+"\t"+
                     item.getProducto().getPrecio()+"\t"+
                     item.getCantidad()+"\t"+
                     item.calcularImporte()+"\n";*/
-            detalle += item + "\n"; //invoca a los metodos string
+            detalle += this.itemFacturas[i].toString() + "\n"; //invoca a los metodos string
         }
 
         detalle += "\n\nFecha de emision: " + simpleDateFormat.format(this.fecha);
