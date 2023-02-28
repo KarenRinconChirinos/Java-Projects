@@ -27,7 +27,7 @@ public class SelectForm extends ElementoForm{
     public String dibujarHtml()
     {
         StringBuilder stringBuilder =  new StringBuilder("<select");
-        stringBuilder.append("name='")
+        stringBuilder.append(" name='")
                      .append(this.nombre)
                      .append("'>");
         for (Opcion opcion: this.opciones){
@@ -36,6 +36,7 @@ public class SelectForm extends ElementoForm{
                     .append("'");
             if(opcion.isSelected()){
                 stringBuilder.append(" selected");
+                this.valor = opcion.getValor();
             }
             stringBuilder.append(">")
                     .append(opcion.getNombre())

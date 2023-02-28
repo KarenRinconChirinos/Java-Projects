@@ -23,8 +23,8 @@ public class InputForm extends ElementoForm{
 
     @Override
     public String dibujarHtml() { //clase abstract que es padre
-        return "<input type='"+ this.tipo
-                +"' name='"+ this.nombre //son protected
-                +"' values='"+ this.valor + "' >";
+        return "<input type=\""+ this.tipo
+                +"\" name=\""+ this.nombre //son protected
+                +"\" value=\""+ this.valor + "\">";
     }
 }
