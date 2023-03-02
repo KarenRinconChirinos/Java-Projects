@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EjerciciosArreglos/EjerciciosArreglos.iml" filepath="$PROJECT_DIR$/EjerciciosArreglos/EjerciciosArreglos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProjectoPaquetes/ProjectoPaquetes.iml" filepath="$PROJECT_DIR$/ProjectoPaquetes/ProjectoPaquetes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProyectoOrdenCompra/ProyectoOrdenCompra.iml" filepath="$PROJECT_DIR$/ProyectoOrdenCompra/ProyectoOrdenCompra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appfacturas/appfacturas.iml" filepath="$PROJECT_DIR$/appfacturas/appfacturas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pooClasesAbstractas/pooClasesAbstractas.iml" filepath="$PROJECT_DIR$/pooClasesAbstractas/pooClasesAbstractas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pooHerencia/pooHerencia.iml" filepath="$PROJECT_DIR$/pooHerencia/pooHerencia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pooHerenciaAlmacenVerduleria/pooHerenciaAlmacenVerduleria.iml" filepath="$PROJECT_DIR$/pooHerenciaAlmacenVerduleria/pooHerenciaAlmacenVerduleria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pooHerenciaCompania/pooHerenciaCompania.iml" filepath="$PROJECT_DIR$/pooHerenciaCompania/pooHerenciaCompania.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/projects_git.iml" filepath="$PROJECT_DIR$/.idea/projects_git.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sobrecargapoo/sobrecargapoo.iml" filepath="$PROJECT_DIR$/sobrecargapoo/sobrecargapoo.iml" />
+    </modules>
+  </component>
+</project>
