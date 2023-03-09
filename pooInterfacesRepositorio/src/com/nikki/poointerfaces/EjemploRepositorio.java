@@ -2,6 +2,7 @@ package com.nikki.poointerfaces;
 
 import com.nikki.poointerfaces.modelo.Cliente;
 import com.nikki.poointerfaces.repositorio.*;
+import com.nikki.poointerfaces.repositorio.lista.ClienteListRepositorio;
 
 import java.util.List;
 
@@ -10,7 +11,7 @@ public class EjemploRepositorio {
         //ClienteListRepositorio como esta implementado con la interfaz
         //tipo mas generico, se utiliza el tipo crudRepositorio
 
-        OrdenablePaginableCrudRepositorio repositorio =  new ClienteListRepositorio();
+        OrdenablePaginableCrudRepositorio<Cliente> repositorio =  new ClienteListRepositorio();
         System.out.println("------------------- Interface crudRepositorio Crear ---------------------");
         repositorio.crear(new Cliente("Karen", "Gogo"));
         repositorio.crear(new Cliente("Chirris", "Fam"));
