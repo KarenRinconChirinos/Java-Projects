@@ -2,50 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9aa0ace-0107-44a3-bf09-aa79ef33169f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/nikki/colecciones/ejemplos/set/EjemploHashSetAgregar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/nikki/colecciones/ejemplos/set/EjemploHashSetBuscarDuplicados.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../genericsBolsaSupermercado/genericsBolsaSupermercado.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../genericsBolsaSupermercado/src/com/nikki/bolsasupermercado/EjemploBolsa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../genericsBolsaSupermercado/src/com/nikki/bolsasupermercado/modelo/Fruta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../genericsBolsaSupermercado/src/com/nikki/bolsasupermercado/modelo/Lacteo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../genericsBolsaSupermercado/src/com/nikki/bolsasupermercado/modelo/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../genericsBolsaSupermercado/src/com/nikki/bolsasupermercado/repositorio/BolsaSupermercado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../genericsBolsaSupermercado/src/com/nikki/bolsasupermercado/repositorio/Ibolsa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pooExceptiocnes/pooExceptiocnes.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pooExceptiocnes/src/com/nikki/ejemploexcepciones/Calculadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pooExceptiocnes/src/com/nikki/ejemploexcepciones/DivisionPorZeroException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pooExceptiocnes/src/com/nikki/ejemploexcepciones/EjemploExcepciones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pooExceptiocnes/src/com/nikki/ejemploexcepciones/FormatNumeroException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pooInterfacesRepositorio/src/com/nikki/genericsclass/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pooInterfacesRepositorio/src/com/nikki/genericsclass/Automovil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pooInterfacesRepositorio/src/com/nikki/genericsclass/EjemploGenericos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pooInterfacesRepositorio/src/com/nikki/genericsclass/Maquinaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pooInterfacesRepositorio/src/com/nikki/poointerfaces/EjemploRepositorioProducto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pooInterfacesRepositorio/src/com/nikki/poointerfaces/modelo/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pooInterfacesRepositorio/src/com/nikki/poointerfaces/modelo/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pooInterfacesRepositorio/src/com/nikki/poointerfaces/repositorio/lista/ClienteListRepositorio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pooInterfacesRepositorio/src/com/nikki/poointerfaces/repositorio/lista/ProductoListRepositorio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pooInterfacesRepositorioExcepciones/src/com/nikki/poointerfaces/repositorio/excepciones/AccesoDatosException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pooInterfacesRepositorioExcepciones/src/com/nikki/poointerfaces/repositorio/excepciones/EscrituraAccesoDatoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pooInterfacesRepositorioExcepciones/src/com/nikki/poointerfaces/repositorio/excepciones/LecturaAccessoDatoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pooInterfacesRepositorioExcepciones/src/com/nikki/poointerfaces/repositorio/excepciones/RegistroDuplicadoAccesoDatoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../untitled/untitled.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pooInterfacesRepositorio/out/production/pooInterfacesRepositorio/com/nikki/poointerfaces/EjemploRepositorio.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pooInterfacesRepositorio/out/production/pooInterfacesRepositorio/com/nikki/poointerfaces/EjemploRepositorio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pooInterfacesRepositorio/out/production/pooInterfacesRepositorio/com/nikki/poointerfaces/modelo/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pooInterfacesRepositorio/out/production/pooInterfacesRepositorio/com/nikki/poointerfaces/modelo/Cliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pooInterfacesRepositorio/out/production/pooInterfacesRepositorio/com/nikki/poointerfaces/repositorio/ClienteListRepositorio$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pooInterfacesRepositorio/out/production/pooInterfacesRepositorio/com/nikki/poointerfaces/repositorio/ClienteListRepositorio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pooInterfacesRepositorio/out/production/pooInterfacesRepositorio/com/nikki/poointerfaces/repositorio/OrdenablePaginableCrudRepositorio.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pooInterfacesRepositorio/out/production/pooInterfacesRepositorio/com/nikki/poointerfaces/repositorio/OrdenablePaginableCrudRepositorio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pooInterfacesRepositorio/out/production/pooInterfacesRepositorio/com/nikki/poointerfaces/repositorio/OrdenableRepositorio.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pooInterfacesRepositorio/out/production/pooInterfacesRepositorio/com/nikki/poointerfaces/repositorio/OrdenableRepositorio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pooInterfacesRepositorio/out/production/pooInterfacesRepositorio/com/nikki/poointerfaces/repositorio/PaginableRepositorio.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pooInterfacesRepositorio/out/production/pooInterfacesRepositorio/com/nikki/poointerfaces/repositorio/PaginableRepositorio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pooInterfacesRepositorio/out/production/pooInterfacesRepositorio/com/nikki/poointerfaces/repositorio/crudRepositorio.class" beforeDir="false" afterPath="$PROJECT_DIR$/../pooInterfacesRepositorio/out/production/pooInterfacesRepositorio/com/nikki/poointerfaces/repositorio/crudRepositorio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pooInterfacesRepositorio/src/com/nikki/genericsclass/Camion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pooInterfacesRepositorio/src/com/nikki/genericsclass/Camion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pooInterfacesRepositorio/src/com/nikki/poointerfaces/EjemploRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pooInterfacesRepositorio/src/com/nikki/poointerfaces/EjemploRepositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pooInterfacesRepositorio/src/com/nikki/poointerfaces/modelo/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pooInterfacesRepositorio/src/com/nikki/poointerfaces/modelo/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pooInterfacesRepositorio/src/com/nikki/poointerfaces/repositorio/ClienteListRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pooInterfacesRepositorio/src/com/nikki/poointerfaces/repositorio/AbstractaListRepositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pooInterfacesRepositorio/src/com/nikki/poointerfaces/repositorio/OrdenablePaginableCrudRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pooInterfacesRepositorio/src/com/nikki/poointerfaces/repositorio/OrdenablePaginableCrudRepositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pooInterfacesRepositorio/src/com/nikki/poointerfaces/repositorio/OrdenableRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pooInterfacesRepositorio/src/com/nikki/poointerfaces/repositorio/OrdenableRepositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pooInterfacesRepositorio/src/com/nikki/poointerfaces/repositorio/PaginableRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pooInterfacesRepositorio/src/com/nikki/poointerfaces/repositorio/PaginableRepositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pooInterfacesRepositorio/src/com/nikki/poointerfaces/repositorio/crudRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pooInterfacesRepositorio/src/com/nikki/poointerfaces/repositorio/crudRepositorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nikki/colecciones/ejemplos/modelo/Alumno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nikki/colecciones/ejemplos/set/EjemploTreeSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nikki/colecciones/ejemplos/set/EjemploTreeSetComparable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nikki/colecciones/ejemplos/set/EjemploHashSetBuscarDuplicados2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nikki/colecciones/ejemplos/set/EjemploHashSetBuscarDuplicados2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +42,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.EjemploHashSetBuscarDuplicados">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nikki.colecciones.ejemplos.set" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.EjemploTreeSetComparable">
     <configuration name="EjemploHashSetAgregar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nikki.colecciones.ejemplos.set.EjemploHashSetAgregar" />
       <module name="colecciones" />
@@ -108,8 +74,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EjemploHashSetBuscarDuplicados2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nikki.colecciones.ejemplos.set.EjemploHashSetBuscarDuplicados2" />
+      <module name="colecciones" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nikki.colecciones.ejemplos.set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploTreeSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nikki.colecciones.ejemplos.set.EjemploTreeSet" />
+      <module name="colecciones" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nikki.colecciones.ejemplos.set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjemploTreeSetComparable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nikki.colecciones.ejemplos.set.EjemploTreeSetComparable" />
+      <module name="colecciones" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nikki.colecciones.ejemplos.set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EjemploTreeSetComparable" />
+        <item itemvalue="Application.EjemploTreeSet" />
+        <item itemvalue="Application.EjemploHashSetBuscarDuplicados2" />
         <item itemvalue="Application.EjemploHashSetBuscarDuplicados" />
         <item itemvalue="Application.EjemploHashSetAgregar" />
       </list>
