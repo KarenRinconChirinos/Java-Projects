@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9aa0ace-0107-44a3-bf09-aa79ef33169f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/nikki/colecciones/ejemplos/modelo/Alumno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/nikki/colecciones/ejemplos/set/EjemploTreeSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/nikki/colecciones/ejemplos/set/EjemploTreeSetComparable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nikki/colecciones/ejemplos/list/EjemploArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nikki/colecciones/ejemplos/list/EjemploLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nikki/colecciones/ejemplos/list/EjemploListComparableComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nikki/colecciones/ejemplos/map/EjemploHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nikki/colecciones/ejemplos/map/EjemploTreeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/nikki/colecciones/ejemplos/set/EjemploHashSetUnicidad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collectionVuelo/src/com/nikki/vuelo/Ejemplovuelo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../collectionVuelo/src/com/nikki/vuelo/Vuelo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nikki/colecciones/ejemplos/set/EjemploHashSetBuscarDuplicados2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nikki/colecciones/ejemplos/set/EjemploHashSetBuscarDuplicados2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/colecciones/com/nikki/colecciones/ejemplos/modelo/Alumno.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/colecciones/com/nikki/colecciones/ejemplos/modelo/Alumno.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/colecciones/com/nikki/colecciones/ejemplos/set/EjemploTreeSetComparable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/colecciones/com/nikki/colecciones/ejemplos/set/EjemploTreeSetComparable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nikki/colecciones/ejemplos/modelo/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nikki/colecciones/ejemplos/modelo/Alumno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/nikki/colecciones/ejemplos/set/EjemploTreeSetComparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nikki/colecciones/ejemplos/set/EjemploTreeSetComparable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,19 +50,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nikki.colecciones.ejemplos.map" />
       <recent name="com.nikki.colecciones.ejemplos.set" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EjemploTreeSetComparable">
-    <configuration name="EjemploHashSetAgregar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nikki.colecciones.ejemplos.set.EjemploHashSetAgregar" />
+  <component name="RunManager" selected="Application.EjemploHashMap">
+    <configuration name="EjemploArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nikki.colecciones.ejemplos.list.EjemploArrayList" />
       <module name="colecciones" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nikki.colecciones.ejemplos.set.*" />
+          <option name="PATTERN" value="com.nikki.colecciones.ejemplos.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploHashSetBuscarDuplicados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nikki.colecciones.ejemplos.set.EjemploHashSetBuscarDuplicados" />
+    <configuration name="EjemploHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nikki.colecciones.ejemplos.map.EjemploHashMap" />
       <module name="colecciones" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nikki.colecciones.ejemplos.set.*" />
+          <option name="PATTERN" value="com.nikki.colecciones.ejemplos.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploHashSetBuscarDuplicados2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nikki.colecciones.ejemplos.set.EjemploHashSetBuscarDuplicados2" />
+    <configuration name="EjemploHashSetUnicidad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nikki.colecciones.ejemplos.set.EjemploHashSetUnicidad" />
       <module name="colecciones" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nikki.colecciones.ejemplos.set.*" />
+          <option name="PATTERN" value="com.nikki.colecciones.ejemplos.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploTreeSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nikki.colecciones.ejemplos.set.EjemploTreeSet" />
+    <configuration name="EjemploLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nikki.colecciones.ejemplos.list.EjemploLinkedList" />
       <module name="colecciones" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nikki.colecciones.ejemplos.set.*" />
+          <option name="PATTERN" value="com.nikki.colecciones.ejemplos.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EjemploTreeSetComparable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nikki.colecciones.ejemplos.set.EjemploTreeSetComparable" />
+    <configuration name="EjemploListComparableComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nikki.colecciones.ejemplos.list.EjemploListComparableComparator" />
       <module name="colecciones" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nikki.colecciones.ejemplos.set.*" />
+          <option name="PATTERN" value="com.nikki.colecciones.ejemplos.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EjemploTreeSetComparable" />
-        <item itemvalue="Application.EjemploTreeSet" />
-        <item itemvalue="Application.EjemploHashSetBuscarDuplicados2" />
-        <item itemvalue="Application.EjemploHashSetBuscarDuplicados" />
-        <item itemvalue="Application.EjemploHashSetAgregar" />
+        <item itemvalue="Application.EjemploHashMap" />
+        <item itemvalue="Application.EjemploLinkedList" />
+        <item itemvalue="Application.EjemploArrayList" />
+        <item itemvalue="Application.EjemploListComparableComparator" />
+        <item itemvalue="Application.EjemploHashSetUnicidad" />
       </list>
     </recent_temporary>
   </component>
