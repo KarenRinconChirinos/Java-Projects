@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9aa0ace-0107-44a3-bf09-aa79ef33169f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/nikki/colecciones/ejemplos/list/EjemploArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/nikki/colecciones/ejemplos/list/EjemploLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/nikki/colecciones/ejemplos/list/EjemploListComparableComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/nikki/colecciones/ejemplos/map/EjemploHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/nikki/colecciones/ejemplos/map/EjemploTreeMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/nikki/colecciones/ejemplos/set/EjemploHashSetUnicidad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../collectionVuelo/src/com/nikki/vuelo/Ejemplovuelo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../collectionVuelo/src/com/nikki/vuelo/Vuelo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/colecciones/com/nikki/colecciones/ejemplos/modelo/Alumno.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/colecciones/com/nikki/colecciones/ejemplos/modelo/Alumno.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/colecciones/com/nikki/colecciones/ejemplos/set/EjemploTreeSetComparable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/colecciones/com/nikki/colecciones/ejemplos/set/EjemploTreeSetComparable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nikki/colecciones/ejemplos/modelo/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nikki/colecciones/ejemplos/modelo/Alumno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/nikki/colecciones/ejemplos/set/EjemploTreeSetComparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/nikki/colecciones/ejemplos/set/EjemploTreeSetComparable.java" afterDir="false" />
-    </list>
+    <list default="true" id="a9aa0ace-0107-44a3-bf09-aa79ef33169f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
