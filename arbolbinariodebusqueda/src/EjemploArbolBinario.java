@@ -2,17 +2,11 @@ public class EjemploArbolBinario {
     public static void main(String[] args) {
         int[] num =  {5,30,2,40,25,4};
         int cont = 0;
-        int padre; //rama principal;
+        int padre = num[0]; //rama principal;
         int c;
         int izquierda = 0;
         int derecha = 0;
-
-        if(izquierda > 0 ){
-            System.out.println("s");
-        }else{
-            System.out.println("aaaa");
-        }
-
+        while()
         while(cont < num.length){
             padre = num[cont];
             System.out.println(padre); //
