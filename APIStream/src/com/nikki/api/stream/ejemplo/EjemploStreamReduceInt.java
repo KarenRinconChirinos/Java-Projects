@@ -4,10 +4,13 @@ import java.util.stream.Stream;
 
  public class EjemploStreamReduceInt {
      public static void main(String[] args) {
-          Stream<String> nombres = Stream.of("pato guz", "paco jam", "pepa mar", "pepe men"
-                          , "pepe maer", "paco jam", "paco jam", "paco jam")
-                  .distinct();
-          String resultado = nombres.reduce("resultado concatenado: ", (a,b) -> a + "," +b);
+          Stream<Integer> nombres = Stream.of(5,10,15,20);
+
+          //reduce (valor inicia, expresion lambda)
+          int resultado = nombres.reduce(0, (a,b) -> a +  b);
+         //int resultado = nombres.reduce(0, (a,b) -> Integer.sum(a,b));
+         //int resultado = nombres.reduce(0, Integer::sum);
+
          System.out.println(resultado);
      }
  }

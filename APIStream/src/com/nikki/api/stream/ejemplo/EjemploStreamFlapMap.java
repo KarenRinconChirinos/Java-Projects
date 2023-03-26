@@ -12,11 +12,14 @@ import java.util.stream.Stream;
                   .of("pato guz", "paco jam", "pepa mar", "pepe men"
                           , "pepe maer")
                   .map(nombre -> new Usuario(nombre.split(" ")[0], nombre.split(" ")[1]))// el map devuelve un resultado o el dato cambiado
-                  .filter(u -> u.getNombre().equals("pepe"))
+                  .flatMap(u -> {
+                      if(u.getNombre().equalsIgnoreCase("pepe")){
+                          return Stream.of(u);
+                      }
+                      return Stream.empty();
+                  })
                   .peek(System.out::println);
 
-         List<Usuario> lista = nombres.collect(Collectors.toList());
-         lista.forEach(u -> System.out.println(u.getApellido()));
-          //peek - realizar un rastreo de los elementos
+         System.out.println(nombres.count());
      }
  }

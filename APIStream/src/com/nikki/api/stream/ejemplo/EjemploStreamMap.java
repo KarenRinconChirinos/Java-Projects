@@ -1,35 +1,28 @@
-package com.nikki.api.stream.ejemplo;
+ package com.nikki.api.stream.ejemplo;
+
+import com.nikki.api.stream.ejemplo.models.Usuario;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Locale;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class EjemploStream {
+public class EjemploStreamMap {
     public static void main(String[] args) {
-         Stream<String> nombres = Stream.of("pato", "paco", "pepa", "pepe"); //el stream es una interface
-         nombres.forEach(System.out::println);//(e -> System.out.println(e));
+         Stream<Usuario> nombres =Stream
+                 .of("pato guz", "paco jam", "pepa mar", "pepe men")
+                 .map(nombre -> new Usuario(nombre.split(" ")[0], nombre.split(" ")[1]))// el map devuelve un resultado o el dato cambiado
+                 .peek(System.out::println)
+                 .map(usuario -> {
+                     String nombre = usuario.getNombre().toUpperCase();
+                     usuario.setNombre(nombre);
+                     return usuario;
+                 });
 
-        String[] arr = {"pato", "paco", "pepa", "pepe"};
-        nombres = Arrays.stream(arr);
-        nombres.forEach(System.out::println);
-
-        Stream<String> nombres2 = Stream.<String>builder().add("Pato")
-                .add("paco")
-                .add("pepa")
-                .add("pepe")
-                .build();
-        nombres2.forEach(System.out::println);
-
-        List<String> lista = new ArrayList<>();
-        lista.add("Pato");
-        lista.add("Paco");
-        lista.add("Pepe");
-        lista.add("Pepa");
-
-        Stream<String> nombresStreamlista= lista.stream();
-        nombresStreamlista.forEach(System.out::println);
-        lista.stream().forEach(System.out::println);
-
+        List<Usuario> lista = nombres.collect(Collectors.toList());
+        lista.forEach(u -> System.out.println(u.getApellido()));
+         //peek - realizar un rastreo de los elementos
     }
 }

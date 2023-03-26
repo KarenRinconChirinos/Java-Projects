@@ -7,6 +7,7 @@ import java.util.stream.Stream;
           Stream<String> nombres = Stream.of("pato guz", "paco jam", "pepa mar", "pepe men"
                           , "pepe maer", "paco jam", "paco jam", "paco jam")
                   .distinct();
-          nombres.forEach(System.out::println);
+          String resultado = nombres.reduce("resultado concatenado: ", (a,b) -> a + "," +b);
+         System.out.println(resultado);
      }
  }

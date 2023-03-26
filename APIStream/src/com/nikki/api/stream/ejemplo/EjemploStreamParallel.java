@@ -4,10 +4,10 @@ import com.nikki.api.stream.ejemplo.models.Usuario;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
+import java.util.concurrent.TimeUnit;
 import java.util.stream.Stream;
 
-public class EjemploStreamListToStream {
+public class EjemploStreamParallel {
     public static void main(String[] args) {
         List<Usuario> lista = new ArrayList<>();
         lista.add(new Usuario("Andres", "Guz"));
@@ -16,19 +16,30 @@ public class EjemploStreamListToStream {
         lista.add(new Usuario("Cata", "Per"));
         lista.add(new Usuario("Lalo", "Mena"));
         lista.add(new Usuario("Exequiel", "Doe"));
-        Stream<String> nombres = lista.stream().map( u -> u.getNombre()
-                                    .toUpperCase()
-                                    .concat(" ")
+        Long t1 = System.currentTimeMillis();
+        String nombres = lista.stream()
+                .parallel()
+                .map( u -> u.toString().toUpperCase().concat(" ")
                 .concat(u.getApellido().toUpperCase()))
+                .peek(n -> {
+                    System.out.println("Nombre thread " +
+                            Thread.currentThread() + " - " + n);
+                })
                 .flatMap(nombre ->{
+                    try {
+                        TimeUnit.SECONDS.sleep(1);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
                     if (nombre.contains("bruce".toUpperCase())){
                         return Stream.of(nombre);
                     }
                     return Stream.empty();
                 })
-                .map(String::toLowerCase)
-                .peek(System.out::println); //crea una lista en stream
+                .findAny().orElse(""); //crea una lista en stream
 
-        System.out.println(nombres.count());
+        long t2 = System.currentTimeMillis();
+        System.out.println("Tiempo total:" + (t2 - t1));
+        System.out.println(nombres);
     }
 }
