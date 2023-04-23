@@ -11,7 +11,6 @@ import java.sql.SQLException;
 public class EjemplojdbcDelete {
     public static void main(String[] args) {
 
-        try (Connection connection = ConexionBaseDatos.getConnection();){
             Repositorio<Producto> repositorio = new ProductoRepositorioImpl();
             System.out.println("\n------------  Listar productos  ------------ ");
             repositorio.listar().forEach(System.out::println);
@@ -25,9 +24,5 @@ public class EjemplojdbcDelete {
             repositorio.listar().forEach(System.out::println);
 
 
-
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
     }
 }

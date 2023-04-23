@@ -1,2 +1,19 @@
-package com.nikki.patrones.decorador2.decorador;public class ConChocolateDecorador {
+package com.nikki.patrones.decorador2.decorador;
+
+import com.nikki.patrones.decorador2.Configurable;
+
+public class ConChocolateDecorador extends  CafeDecorador{
+    public ConChocolateDecorador(Configurable cafe) {
+        super(cafe);
+    }
+
+    @Override
+    public float getPrecioBase() {
+        return cafe.getPrecioBase() + 5f;
+    }
+
+    @Override
+    public String getIngrediente() {
+        return cafe.getIngrediente() + ", Chocolate";
+    }
 }

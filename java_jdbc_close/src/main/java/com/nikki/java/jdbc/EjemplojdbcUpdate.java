@@ -13,7 +13,6 @@ import java.util.Date;
 public class EjemplojdbcUpdate {
     public static void main(String[] args) {
 
-        try (Connection connection = ConexionBaseDatos.getConnection();){
             Repositorio<Producto> repositorio = new ProductoRepositorioImpl();
             System.out.println("\n------------  Listar productos  ------------ ");
             repositorio.listar().forEach(System.out::println);
@@ -31,9 +30,5 @@ public class EjemplojdbcUpdate {
             repositorio.guardar(p);
             repositorio.listar().forEach(System.out::println);
 
-
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
     }
 }

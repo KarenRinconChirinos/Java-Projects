@@ -1,71 +1,49 @@
 package com.nikki.datetime.ejemplos;
 
-import java.time.DayOfWeek;
-import java.time.LocalDate;
-import java.time.Month;
-import java.time.format.TextStyle;
+
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
-import java.util.Locale;
 
 public class EjemploLocalTime {
     public static void main(String[] args) {
-        LocalDate fechaActual = LocalDate.now();
-        System.out.println("fechaActual = " + fechaActual);
-        System.out.println("Dia: " + fechaActual.getDayOfMonth());
-        System.out.println("Mes: " + fechaActual.getMonth());
+        LocalTime ahora = LocalTime.now();
+        System.out.println("ahora = " + ahora);
+        System.out.println("Hora = " + ahora.getHour());
+        System.out.println("Segundo= " + ahora.getSecond());
+        System.out.println("Nanoseg = " + ahora.getNano());
 
-        Month mes = fechaActual.getMonth();
-        System.out.println("Mes english: " + mes);
-        System.out.println("mes.getValue() (numero del mes) = " + mes.getValue());
-        System.out.println("mes español: " + mes.getDisplayName(TextStyle.FULL, new Locale("es", "ES")));
+        //formato horas, minutos
+        LocalTime seisContTreinta = LocalTime.of(6,30,59);
+        System.out.println("seisContTreinta = " + seisContTreinta);
+        seisContTreinta = LocalTime.parse("06:30");//am
+        seisContTreinta = LocalTime.parse("18:30"); //pm
 
-        DayOfWeek diaSemana = fechaActual.getDayOfWeek();
-        System.out.println("Numero del dia: " + diaSemana.getValue());
-        System.out.println("Nombre del dia español " + diaSemana.getDisplayName(TextStyle.FULL, new Locale("es", "ES")));
+        //agrega mints, horas seg con plus o diminuye con minus
+        LocalTime sieteConTreinta = LocalTime.of(6,30).plus(1, ChronoUnit.HOURS);
+        System.out.println("sieteConTreinta = " + sieteConTreinta);
 
-        System.out.println("Año: " + fechaActual.getYear());
-        System.out.println("Dia del año: " + fechaActual.getDayOfYear());
-        System.out.println("Era: " + fechaActual.getEra());
-        
-        
-        fechaActual = LocalDate.of(2020, 2, 25);
-        System.out.println("fechaActual = " + fechaActual);
+        boolean esAnterior = LocalTime.of(6,30).isBefore(LocalTime.parse("07:30"));
+        System.out.println("esAnterior = " + esAnterior);
 
-        fechaActual = LocalDate.of(2021, Month.APRIL, 26);
-        System.out.println("fechaActual = " + fechaActual);
+        //tener un formato debe ser en minuscula los minutos (mayusucla es para mes)
+        //HH -> formato 24 horas
+        //hh -> formato am/pm
+        // a / p indica am/pm
+        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("hh:mm:ss a");
+        String horaFormateado = seisContTreinta.format(dateTimeFormatter);
+        System.out.println("horaFormateado = " + horaFormateado);
 
-        fechaActual = LocalDate.parse("2020-01-02");
-        System.out.println("fechaActual = " + fechaActual);
+        horaFormateado = dateTimeFormatter.format(ahora);
+        System.out.println("horaFormateado = " + horaFormateado);
 
-        //con plus sumamos dias //minus para restar dias
-        LocalDate diaMañana = LocalDate.now().plusDays(1);
-        System.out.println("diaMañana = " + diaMañana);
+        //hora maxima y hora minima de un dia
+        LocalTime max = LocalTime.MAX;
+        LocalTime min = LocalTime.MIN;
 
-        LocalDate mesAnteriorMismoDia = LocalDate.now().minusMonths(1);
-        System.out.println("mesAnteriorMismoDia = " + mesAnteriorMismoDia);
+        System.out.println("min = " + min);
+        System.out.println("max = " + max);
 
-        //es lo mismo que minus
-        mesAnteriorMismoDia = LocalDate.now().minus(1, ChronoUnit.MONTHS);
-        System.out.println("mesAnteriorMismoDia = " + mesAnteriorMismoDia);
-        DayOfWeek miercoles = LocalDate.parse("2020-11-11").getDayOfWeek();
-        System.out.println("miercoles = " + miercoles);
-
-        int once = LocalDate.of(2020, 11,11).getDayOfMonth();
-        System.out.println("once = " + once);
-
-        //como saber si es bisiensto o no el año
-        boolean esBisiesto = LocalDate.now().isLeapYear();
-        System.out.println("esBisiesto = " + esBisiesto);
-
-        //comparar fechas
-        boolean esAntes = LocalDate.of(2020, Month.SEPTEMBER,25).isBefore(LocalDate.parse("2020-04-23"));
-        System.out.println("esAntes = " + esAntes);
-
-        boolean esDespues = LocalDate.parse("2020-10-23").isBefore(LocalDate.now());
-        System.out.println("esDespues = " + esDespues);
-
-        esDespues = LocalDate.now().isAfter(LocalDate.now().minus(1,ChronoUnit.DAYS));
-        System.out.println("esDespues = " + esDespues);
 
 
     }

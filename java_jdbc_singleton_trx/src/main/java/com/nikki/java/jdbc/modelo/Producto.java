@@ -8,6 +8,8 @@ public class Producto {
     private Integer precio;
     private Date fechaRegistro;
     private Categoria categoria;
+    private String sku;
+
 
     public Producto() {
     }
@@ -24,7 +26,8 @@ public class Producto {
         return id + " | " + nomnbre
                 + " | " + precio
                 + " | " + fechaRegistro
-                + " | " + categoria.getNombre();
+                + " | " + categoria.getNombre()
+                + " | " + sku;
     }
 
     public Categoria getCategoria() {
@@ -65,5 +68,13 @@ public class Producto {
 
     public void setFechaRegistro(Date fechaRegistro) {
         this.fechaRegistro = fechaRegistro;
+    }
+
+    public String getSku() {
+        return sku;
+    }
+
+    public void setSku(String sku) {
+        this.sku = sku;
     }
 }

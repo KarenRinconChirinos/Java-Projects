@@ -15,7 +15,7 @@ public class ProductoRepositorioImpl implements Repositorio<Producto> {
     }
 
     @Override
-    public List<Producto> listar() {
+    public List<Producto> listar() throws SQLException {
         List<Producto> productos = new ArrayList<>();
         try(Statement stmt = getConnection().createStatement();
             ResultSet rs = stmt.executeQuery("SELECT p.* , c.nombre as categoria " +
@@ -25,13 +25,11 @@ public class ProductoRepositorioImpl implements Repositorio<Producto> {
                Producto p = crearProducto(rs);
                productos.add(p);
             }
-        } catch (SQLException e) {
-            e.printStackTrace();
         }
         return productos;
     }
     @Override
-    public Producto porId(Long id) {
+    public Producto porId(Long id) throws SQLException {
         Producto producto = null;
         try(PreparedStatement pstmt = getConnection()
                 .prepareStatement("SELECT p.* , c.nombre as categoria " +
@@ -43,53 +41,49 @@ public class ProductoRepositorioImpl implements Repositorio<Producto> {
                     producto = crearProducto(rs);
                 }
             }
-        } catch (SQLException e) {
-            e.printStackTrace();
         }
         return producto;
     }
 
     @Override
-    public void guardar(Producto producto) {
+    public void guardar(Producto producto) throws SQLException {
         String sql;
-        if (producto.getId() != null && producto.getId()>0) { //actualizacion
-            sql = " UPDATE productos SET nombre =?, precio = ?, categoriaId = ?  WHERE id = ?";
+        if (producto.getId() != null && producto.getId() > 0) { //actualizacion
+            sql = " UPDATE productos SET nombre =?, precio = ?, categoriaId = ?, sku = ?  WHERE id = ?";
         } else {
-            sql = " INSERT INTO productos(nombre, precio, categoriaId, fechaRegistro) VALUES (?,?,?,?)";
+            sql = " INSERT INTO productos(nombre, precio, categoriaId, sku, fechaRegistro) VALUES (?,?,?,?,?)";
         }
-        try(PreparedStatement pstmt = getConnection().prepareStatement(sql)) {
+        try (PreparedStatement pstmt = getConnection().prepareStatement(sql)) {
             pstmt.setString(1, producto.getNomnbre());
             pstmt.setInt(2, producto.getPrecio());
             pstmt.setLong(3, producto.getCategoria().getId());
-            if (producto.getId() != null && producto.getId()>0) { //actualizacion
-                pstmt.setLong(4, producto.getId());
-            }else{
-                pstmt.setDate(4,  new Date(producto.getFechaRegistro().getTime()));
+            pstmt.setString(4, producto.getSku());
+            if (producto.getId() != null && producto.getId() > 0) { //actualizacion
+                pstmt.setLong(5, producto.getId());
+            } else {
+                pstmt.setDate(5, new Date(producto.getFechaRegistro().getTime()));
             }
             pstmt.executeUpdate();
-        } catch (SQLException e) {
-            e.printStackTrace();
         }
     }
 
     @Override
-    public void eliminar(Long id) {
+    public void eliminar(Long id) throws SQLException {
         try(PreparedStatement pstmt = getConnection().prepareStatement("DELETE FROM productos WHERE id = ?")) {
-            pstmt.setLong(1,id);
+            pstmt.setLong(1, id);
             pstmt.executeUpdate();
-        } catch (SQLException e) {
-            e.printStackTrace();
         }
     }
 
 
 
-    private Producto crearProducto( ResultSet rs) throws SQLException {
+    private Producto crearProducto(ResultSet rs) throws SQLException {
         Producto p = new Producto();
         p.setId(rs.getLong("id"));
         p.setNomnbre(rs.getString("nombre"));
         p.setPrecio(rs.getInt("precio"));
         p.setFechaRegistro(rs.getDate("fechaRegistro"));
+        p.setSku(rs.getString("sku"));
         Categoria categoria = new Categoria();
         categoria.setId(rs.getLong("categoriaId"));
         categoria.setNombre(rs.getString("categoria"));

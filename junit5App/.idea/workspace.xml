@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c9e8da44-f516-48de-961b-25830e4afcb8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/src/main/java/com/nikki/java/jdbc/servicio/CatalogoServicio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/src/main/java/com/nikki/java/jdbc/servicio/Servicio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ManejodeArchivos/src/com/nikki/archivos/ejemplos/EjemploCrearArchivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ManejodeArchivos/src/com/nikki/archivos/ejemplos/EjemploCrearArchivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ManejodeArchivos/src/com/nikki/archivos/ejemplos/EjemploLeerArchivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ManejodeArchivos/src/com/nikki/archivos/ejemplos/EjemploLeerArchivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ManejodeArchivos/src/com/nikki/archivos/ejemplos/service/ArchivoServicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ManejodeArchivos/src/com/nikki/archivos/ejemplos/service/ArchivoServicio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoMantenedorUsuariosJDBC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectoMantenedorUsuariosJDBC/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoMantenedorUsuariosJDBC/src/main/java/com/nikki/java/jdbc/Ejemplo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectoMantenedorUsuariosJDBC/src/main/java/com/nikki/java/jdbc/Ejemplo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoMantenedorUsuariosJDBC/src/main/java/com/nikki/java/jdbc/modelo/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectoMantenedorUsuariosJDBC/src/main/java/com/nikki/java/jdbc/modelo/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoMantenedorUsuariosJDBC/src/main/java/com/nikki/java/jdbc/repositorio/Repositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectoMantenedorUsuariosJDBC/src/main/java/com/nikki/java/jdbc/repositorio/Repositorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoMantenedorUsuariosJDBC/src/main/java/com/nikki/java/jdbc/repositorio/UsuarioRepositorioImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectoMantenedorUsuariosJDBC/src/main/java/com/nikki/java/jdbc/repositorio/UsuarioRepositorioImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProyectoMantenedorUsuariosJDBC/src/main/java/com/nikki/java/jdbc/util/ConexionBaseDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ProyectoMantenedorUsuariosJDBC/src/main/java/com/nikki/java/jdbc/util/ConexionBaseDatos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TExpresionLambdaVeces/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TExpresionLambdaVeces/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TExpresionLambdaVeces/src/com/nikki/lambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TExpresionLambdaVeces/src/com/nikki/lambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anotaciones/src/com/nikkianotaciones/ejemplo/EjemploAnotacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../anotaciones/src/com/nikkianotaciones/ejemplo/EjemploAnotacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anotaciones/src/com/nikkianotaciones/ejemplo/Init.java" beforeDir="false" afterPath="$PROJECT_DIR$/../anotaciones/src/com/nikkianotaciones/ejemplo/Init.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anotaciones/src/com/nikkianotaciones/ejemplo/JsonAtributo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../anotaciones/src/com/nikkianotaciones/ejemplo/JsonAtributo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anotaciones/src/com/nikkianotaciones/ejemplo/models/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../anotaciones/src/com/nikkianotaciones/ejemplo/models/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anotaciones/src/com/nikkianotaciones/ejemplo/procesador/JsonSerializador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../anotaciones/src/com/nikkianotaciones/ejemplo/procesador/JsonSerializador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../anotaciones/src/com/nikkianotaciones/ejemplo/procesador/exception/JsonSerializadorException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../anotaciones/src/com/nikkianotaciones/ejemplo/procesador/exception/JsonSerializadorException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../claseOptional/src/com/nikki/optional/ejemplo/EjemploOptional.java" beforeDir="false" afterPath="$PROJECT_DIR$/../claseOptional/src/com/nikki/optional/ejemplo/EjemploOptional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../claseOptional/src/com/nikki/optional/ejemplo/EjemploRepositorioMapFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../claseOptional/src/com/nikki/optional/ejemplo/EjemploRepositorioMapFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../claseOptional/src/com/nikki/optional/ejemplo/EjemploRepositorioMetodoOrElse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../claseOptional/src/com/nikki/optional/ejemplo/EjemploRepositorioMetodoOrElse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../claseOptional/src/com/nikki/optional/ejemplo/EjemploRepositorioMetodoOrElseThrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../claseOptional/src/com/nikki/optional/ejemplo/EjemploRepositorioMetodoOrElseThrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../claseOptional/src/com/nikki/optional/ejemplo/models/Computador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../claseOptional/src/com/nikki/optional/ejemplo/models/Computador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../claseOptional/src/com/nikki/optional/ejemplo/models/Fabricante.java" beforeDir="false" afterPath="$PROJECT_DIR$/../claseOptional/src/com/nikki/optional/ejemplo/models/Fabricante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../claseOptional/src/com/nikki/optional/ejemplo/models/Procesador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../claseOptional/src/com/nikki/optional/ejemplo/models/Procesador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../claseOptional/src/com/nikki/optional/ejemplo/repositorio/ComputadorRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../claseOptional/src/com/nikki/optional/ejemplo/repositorio/ComputadorRepositorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../claseOptional/src/com/nikki/optional/ejemplo/repositorio/IRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../claseOptional/src/com/nikki/optional/ejemplo/repositorio/IRepositorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java8DateTime/src/EjemploPeriod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java8DateTime/src/EjemploPeriod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java8DateTime/src/com/nikki/datetime/ejemplos/EjemploCalcularFechaNacimiento.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java8DateTime/src/com/nikki/datetime/ejemplos/EjemploCalcularFechaNacimiento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java8DateTime/src/com/nikki/datetime/ejemplos/EjemploDuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java8DateTime/src/com/nikki/datetime/ejemplos/EjemploDuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java8DateTime/src/com/nikki/datetime/ejemplos/EjemploDuration2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java8DateTime/src/com/nikki/datetime/ejemplos/EjemploDuration2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java8DateTime/src/com/nikki/datetime/ejemplos/EjemploLocalDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java8DateTime/src/com/nikki/datetime/ejemplos/EjemploLocalDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java8DateTime/src/com/nikki/datetime/ejemplos/EjemploLocalDateTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java8DateTime/src/com/nikki/datetime/ejemplos/EjemploLocalDateTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java8DateTime/src/com/nikki/datetime/ejemplos/EjemploLocalTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java8DateTime/src/com/nikki/datetime/ejemplos/EjemploLocalTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java8DateTime/src/com/nikki/datetime/ejemplos/EjemploZonedDateTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java8DateTime/src/com/nikki/datetime/ejemplos/EjemploZonedDateTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc/src/main/java/com/nikki/java/jdbc/Ejemplojdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc/src/main/java/com/nikki/java/jdbc/Ejemplojdbc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc/src/main/java/com/nikki/java/jdbc/EjemplojdbcDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc/src/main/java/com/nikki/java/jdbc/EjemplojdbcDelete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc/src/main/java/com/nikki/java/jdbc/EjemplojdbcUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc/src/main/java/com/nikki/java/jdbc/EjemplojdbcUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc/src/main/java/com/nikki/java/jdbc/modelo/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc/src/main/java/com/nikki/java/jdbc/modelo/Categoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc/src/main/java/com/nikki/java/jdbc/modelo/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc/src/main/java/com/nikki/java/jdbc/modelo/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc/src/main/java/com/nikki/java/jdbc/repositorio/ProductoRepositorioImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc/src/main/java/com/nikki/java/jdbc/repositorio/ProductoRepositorioImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc/src/main/java/com/nikki/java/jdbc/util/ConexionBaseDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc/src/main/java/com/nikki/java/jdbc/util/ConexionBaseDatos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_close/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_close/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_close/src/main/java/com/nikki/java/jdbc/Ejemplojdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_close/src/main/java/com/nikki/java/jdbc/Ejemplojdbc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_close/src/main/java/com/nikki/java/jdbc/EjemplojdbcDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_close/src/main/java/com/nikki/java/jdbc/EjemplojdbcDelete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_close/src/main/java/com/nikki/java/jdbc/EjemplojdbcUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_close/src/main/java/com/nikki/java/jdbc/EjemplojdbcUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_close/src/main/java/com/nikki/java/jdbc/repositorio/ProductoRepositorioImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_close/src/main/java/com/nikki/java/jdbc/repositorio/ProductoRepositorioImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_close/src/main/java/com/nikki/java/jdbc/util/ConexionBaseDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_close/src/main/java/com/nikki/java/jdbc/util/ConexionBaseDatos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_close/target/classes/com/nikki/java/jdbc/Ejemplojdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_close/target/classes/com/nikki/java/jdbc/Ejemplojdbc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_close/target/classes/com/nikki/java/jdbc/EjemplojdbcDelete.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_close/target/classes/com/nikki/java/jdbc/EjemplojdbcDelete.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_close/target/classes/com/nikki/java/jdbc/EjemplojdbcUpdate.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_close/target/classes/com/nikki/java/jdbc/EjemplojdbcUpdate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_close/target/classes/com/nikki/java/jdbc/repositorio/ProductoRepositorioImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_close/target/classes/com/nikki/java/jdbc/repositorio/ProductoRepositorioImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_close/target/classes/com/nikki/java/jdbc/util/ConexionBaseDatos.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_close/target/classes/com/nikki/java/jdbc/util/ConexionBaseDatos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_pool/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_pool/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_pool/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_pool/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_pool/src/main/java/com/nikki/java/jdbc/Ejemplojdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_pool/src/main/java/com/nikki/java/jdbc/Ejemplojdbc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_pool/src/main/java/com/nikki/java/jdbc/util/ConexionBaseDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_pool/src/main/java/com/nikki/java/jdbc/util/ConexionBaseDatos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_pool/target/classes/com/nikki/java/jdbc/Ejemplojdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_pool/target/classes/com/nikki/java/jdbc/Ejemplojdbc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_pool/target/classes/com/nikki/java/jdbc/util/ConexionBaseDatos.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_pool/target/classes/com/nikki/java/jdbc/util/ConexionBaseDatos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_pool_trx/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_pool_trx/src/main/java/com/nikki/java/jdbc/Ejemplojdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/src/main/java/com/nikki/java/jdbc/Ejemplojdbc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_pool_trx/src/main/java/com/nikki/java/jdbc/modelo/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/src/main/java/com/nikki/java/jdbc/modelo/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_pool_trx/src/main/java/com/nikki/java/jdbc/repositorio/CategoriaRepositorioImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/src/main/java/com/nikki/java/jdbc/repositorio/CategoriaRepositorioImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_pool_trx/src/main/java/com/nikki/java/jdbc/repositorio/ProductoRepositorioImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/src/main/java/com/nikki/java/jdbc/repositorio/ProductoRepositorioImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_pool_trx/src/main/java/com/nikki/java/jdbc/repositorio/Repositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/src/main/java/com/nikki/java/jdbc/repositorio/Repositorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_pool_trx/target/classes/com/nikki/java/jdbc/Ejemplojdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/target/classes/com/nikki/java/jdbc/Ejemplojdbc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_pool_trx/target/classes/com/nikki/java/jdbc/EjemplojdbcDelete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_pool_trx/target/classes/com/nikki/java/jdbc/EjemplojdbcUpdate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_pool_trx/target/classes/com/nikki/java/jdbc/modelo/Producto.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/target/classes/com/nikki/java/jdbc/modelo/Producto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_pool_trx/target/classes/com/nikki/java/jdbc/repositorio/ProductoRepositorioImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/target/classes/com/nikki/java/jdbc/repositorio/ProductoRepositorioImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_pool_trx/target/classes/com/nikki/java/jdbc/repositorio/Repositorio.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_pool_trx/target/classes/com/nikki/java/jdbc/repositorio/Repositorio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_singleton_trx/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_singleton_trx/src/main/java/com/nikki/java/jdbc/EjemplojdbcTrx.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/src/main/java/com/nikki/java/jdbc/EjemplojdbcTrx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_singleton_trx/src/main/java/com/nikki/java/jdbc/modelo/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/src/main/java/com/nikki/java/jdbc/modelo/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_singleton_trx/src/main/java/com/nikki/java/jdbc/repositorio/ProductoRepositorioImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/src/main/java/com/nikki/java/jdbc/repositorio/ProductoRepositorioImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_singleton_trx/src/main/java/com/nikki/java/jdbc/repositorio/Repositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/src/main/java/com/nikki/java/jdbc/repositorio/Repositorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_singleton_trx/target/classes/com/nikki/java/jdbc/modelo/Producto.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/target/classes/com/nikki/java/jdbc/modelo/Producto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_singleton_trx/target/classes/com/nikki/java/jdbc/repositorio/ProductoRepositorioImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/target/classes/com/nikki/java/jdbc/repositorio/ProductoRepositorioImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_jdbc_singleton_trx/target/classes/com/nikki/java/jdbc/repositorio/Repositorio.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java_jdbc_singleton_trx/target/classes/com/nikki/java/jdbc/repositorio/Repositorio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/composite/Archivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/composite/Archivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/composite/Componente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/composite/Componente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/composite/Directorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/composite/Directorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/composite/ejemplo/EjemploComposite.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/composite/ejemplo/EjemploComposite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/composite/ejemplo/EjemploCompositeBuscar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/composite/ejemplo/EjemploCompositeBuscar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/decorador2/Cafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/decorador2/Cafe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/decorador2/Configurable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/decorador2/Configurable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/decorador2/EjemploDecoradorCafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/decorador2/EjemploDecoradorCafe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/decorador2/decorador/CafeDecorador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/decorador2/decorador/CafeDecorador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/decorador2/decorador/ConChocolateDecorador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/decorador2/decorador/ConChocolateDecorador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/decorador2/decorador/ConCremaDecorador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/decorador2/decorador/ConCremaDecorador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/decorador2/decorador/ConLecheDecorador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/decorador2/decorador/ConLecheDecorador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/decorator/Formateable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/decorator/Formateable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/decorator/Texto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/decorator/Texto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/decorator/decorador/EjemploDecorador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/decorator/decorador/EjemploDecorador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/decorator/decorador/MayusculaDecorador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/decorator/decorador/MayusculaDecorador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/decorator/decorador/RemplazarEspacioDecorador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/decorator/decorador/RemplazarEspacioDecorador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/decorator/decorador/ReversaDecorador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/decorator/decorador/ReversaDecorador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/decorator/decorador/SubrayadoDecorador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/decorator/decorador/SubrayadoDecorador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/decorator/decorador/TextoDecorador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/decorator/decorador/TextoDecorador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/factory/PizzaProducto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/factory/PizzaProducto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/factory/PizzeriaCaliforniaFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/factory/PizzeriaCaliforniaFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/factory/PizzeriaNewYorkFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/factory/PizzeriaNewYorkFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/factory/PizzeriaZonaAbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/factory/PizzeriaZonaAbstractFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/factory/ejemplo/EjemploFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/factory/ejemplo/EjemploFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/factory/producto/PizzaCaliforniaPepperoni.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/factory/producto/PizzaCaliforniaPepperoni.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/factory/producto/PizzaCaliforniaQueso.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/factory/producto/PizzaCaliforniaQueso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/factory/producto/PizzaCaliforniaVegetariana.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/factory/producto/PizzaCaliforniaVegetariana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/factory/producto/PizzaNewYorkItaliana.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/factory/producto/PizzaNewYorkItaliana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/factory/producto/PizzaNewYorkPepperoni.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/factory/producto/PizzaNewYorkPepperoni.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/factory/producto/PizzaNewYorkVegetariana.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/factory/producto/PizzaNewYorkVegetariana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/observer/Corporacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/observer/Corporacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/observer/Observable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/observer/Observable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/observer/UsuarioRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/observer/UsuarioRepositorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/observer/ejemplos/EjemploObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/observer/ejemplos/EjemploObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/observer/ejemplos/EjemploObserver2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/observer/ejemplos/EjemploObserver2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/observer/observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/observer/observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/singleton/ConexionBDSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/singleton/ConexionBDSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/singleton/EjemploSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/../patrones_diseño/src/com/nikki/patrones/singleton/EjemploSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recursividad/src/com/nikki/recursividad/ejemplo/EjemploRecursividad.java" beforeDir="false" afterPath="$PROJECT_DIR$/../recursividad/src/com/nikki/recursividad/ejemplo/EjemploRecursividad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../recursividad/src/com/nikki/recursividad/ejemplo/models/Componente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../recursividad/src/com/nikki/recursividad/ejemplo/models/Componente.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2OoldNCgLN3j4hjLtnBdxlofY3K" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9e8da44-f516-48de-961b-25830e4afcb8" name="Changes" comment="" />
+      <created>1682234976069</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682234976069</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

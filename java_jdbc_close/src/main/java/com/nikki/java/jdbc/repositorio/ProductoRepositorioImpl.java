@@ -17,7 +17,8 @@ public class ProductoRepositorioImpl implements Repositorio<Producto> {
     @Override
     public List<Producto> listar() {
         List<Producto> productos = new ArrayList<>();
-        try(Statement stmt = getConnection().createStatement();
+        try(Connection connection = getConnection();
+            Statement stmt = connection.createStatement();
             ResultSet rs = stmt.executeQuery("SELECT p.* , c.nombre as categoria " +
                     "FROM productos as p  INNER JOIN categorias as c " +
                     "ON (p.categoriaId = c.id)")){
@@ -33,7 +34,8 @@ public class ProductoRepositorioImpl implements Repositorio<Producto> {
     @Override
     public Producto porId(Long id) {
         Producto producto = null;
-        try(PreparedStatement pstmt = getConnection()
+        try(Connection connection = getConnection();
+                PreparedStatement pstmt = connection
                 .prepareStatement("SELECT p.* , c.nombre as categoria " +
                         " FROM productos as p  INNER JOIN categorias as c " +
                         "  ON (p.categoriaId = c.id) WHERE p.id = ?")){
@@ -57,7 +59,8 @@ public class ProductoRepositorioImpl implements Repositorio<Producto> {
         } else {
             sql = " INSERT INTO productos(nombre, precio, categoriaId, fechaRegistro) VALUES (?,?,?,?)";
         }
-        try(PreparedStatement pstmt = getConnection().prepareStatement(sql)) {
+        try(Connection connection = getConnection();
+            PreparedStatement pstmt = connection.prepareStatement(sql)) {
             pstmt.setString(1, producto.getNomnbre());
             pstmt.setInt(2, producto.getPrecio());
             pstmt.setLong(3, producto.getCategoria().getId());
@@ -74,7 +77,8 @@ public class ProductoRepositorioImpl implements Repositorio<Producto> {
 
     @Override
     public void eliminar(Long id) {
-        try(PreparedStatement pstmt = getConnection().prepareStatement("DELETE FROM productos WHERE id = ?")) {
+        try(Connection connection = getConnection();
+            PreparedStatement pstmt = connection.prepareStatement("DELETE FROM productos WHERE id = ?")) {
             pstmt.setLong(1,id);
             pstmt.executeUpdate();
         } catch (SQLException e) {

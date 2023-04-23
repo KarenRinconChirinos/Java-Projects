@@ -19,7 +19,7 @@ public class Ejemplojdbc {
             System.out.println(repositorio.porId(2l));
             System.out.println("\n------------  Guardar productos  ------------ ");
             Producto p = new Producto();
-            p.setNomnbre("Mouse");
+            p.setNomnbre("Mouse ato rosa");
             p.setPrecio(150);
             p.setFechaRegistro(new Date());
             Categoria cat = new Categoria();

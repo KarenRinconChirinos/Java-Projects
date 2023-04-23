@@ -9,6 +9,7 @@
         <module name="java_jdbc_pool" />
         <module name="java_jdbc" />
         <module name="java_jdbc_close" />
+        <module name="java_jdbc_pool_trx" />
       </profile>
     </annotationProcessing>
   </component>

@@ -12,7 +12,6 @@ import java.util.Date;
 public class Ejemplojdbc {
     public static void main(String[] args) {
 
-        try (Connection connection = ConexionBaseDatos.getConnection();){
             Repositorio<Producto> repositorio = new ProductoRepositorioImpl();
             System.out.println("\n------------  Listar productos  ------------ ");
             repositorio.listar().forEach(System.out::println);
@@ -26,11 +25,7 @@ public class Ejemplojdbc {
             Categoria cat = new Categoria();
             cat.setId(3l);
             p.setCategoria(cat);
-            repositorio.guardar(p);
+            //repositorio.guardar(p);
             repositorio.listar().forEach(System.out::println);
-
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
     }
 }

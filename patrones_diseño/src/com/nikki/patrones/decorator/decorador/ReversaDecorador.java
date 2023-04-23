@@ -1,2 +1,15 @@
-package com.nikki.patrones.decorator.decorador;public class ReversaDecorador {
+package com.nikki.patrones.decorator.decorador;
+
+import com.nikki.patrones.decorator.Formateable;
+
+public class ReversaDecorador extends TextoDecorador{
+    public ReversaDecorador(Formateable texto) {
+        super(texto);
+    }
+
+    @Override
+    public String darFormato() {
+        StringBuilder sb = new StringBuilder(texto.darFormato());
+        return sb.reverse().toString();
+    }
 }

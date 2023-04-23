@@ -7,9 +7,8 @@ import com.nikki.java.jdbc.util.ConexionBaseDatos;
 
 import java.sql.Connection;
 import java.sql.SQLException;
-import java.util.Date;
 
-public class EjemplojdbcUpdate {
+public class EjemplojdbcDelete {
     public static void main(String[] args) {
 
         try (Connection connection = ConexionBaseDatos.getConnection();){
@@ -19,15 +18,13 @@ public class EjemplojdbcUpdate {
             System.out.println("\n------------  Buscar por id  ------------ ");
             System.out.println(repositorio.porId(2l));
 
-            System.out.println("\n------------  Actualizar productos  ------------ ");
+            System.out.println("\n------------  Eliminar productos  ------------ ");
             Producto p = new Producto();
             p.setId(3l);
-            p.setNomnbre("Mouse Rizen Luces Led");
-            p.setPrecio(550);
-            repositorio.guardar(p);
+            repositorio.eliminar(p.getId());
             repositorio.listar().forEach(System.out::println);
 
-            System.out.println("\n------------  Eliminar productos  ------------ ");
+
 
         } catch (SQLException e) {
             e.printStackTrace();
