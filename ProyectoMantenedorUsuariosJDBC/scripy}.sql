@@ -13,4 +13,5 @@ CREATE TABLE `usuarios` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB
 
-SELECT }
+SELECT username, email, password FROM usuarios
+SELECT * FROM usuarios
