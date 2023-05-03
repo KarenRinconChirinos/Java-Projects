@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9e8da44-f516-48de-961b-25830e4afcb8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/data2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/nikki/junitapp/ejemplos/models/CuentaTest$PruebasParametrizada.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/nikki/junitapp/ejemplos/models/CuentaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/nikki/junitapp/ejemplos/models/CuentaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nikki/junitapp/ejemplos/models/CuentaTest$CuentaOperacionesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/nikki/junitapp/ejemplos/models/CuentaTest$CuentaOperacionesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nikki/junitapp/ejemplos/models/CuentaTest$CuentaTestNombreSaldo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/nikki/junitapp/ejemplos/models/CuentaTest$CuentaTestNombreSaldo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nikki/junitapp/ejemplos/models/CuentaTest$JavaVersionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/nikki/junitapp/ejemplos/models/CuentaTest$JavaVersionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nikki/junitapp/ejemplos/models/CuentaTest$SistemPropertiesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/nikki/junitapp/ejemplos/models/CuentaTest$SistemPropertiesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nikki/junitapp/ejemplos/models/CuentaTest$SistemaOperativoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/nikki/junitapp/ejemplos/models/CuentaTest$SistemaOperativoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/nikki/junitapp/ejemplos/models/CuentaTest$VariableAmbienteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/nikki/junitapp/ejemplos/models/CuentaTest$VariableAmbienteTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/nikki/junitapp/ejemplos/models/CuentaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/nikki/junitapp/ejemplos/models/CuentaTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,11 +56,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cabal\projects_git\junit5App\src\main\resources" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -59,7 +72,7 @@
       <recent name="com.nikki.junitapp.ejemplos.models" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CuentaTest (1)">
+  <component name="RunManager" selected="Maven.junit5App [test]">
     <configuration name="CuentaTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5App" />
       <extension name="coverage">
@@ -75,7 +88,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CuentaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CuentaTest$CuentaTestNombreSaldo.testNombreCuenta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit5App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nikki.junitapp.ejemplos.models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nikki.junitapp.ejemplos.models.CuentaTest" />
+      <option name="MAIN_CLASS_NAME" value="com.nikki.junitapp.ejemplos.models.CuentaTest$CuentaTestNombreSaldo" />
+      <option name="METHOD_NAME" value="testNombreCuenta(org.junit.jupiter.api.TestInfo,org.junit.jupiter.api.TestReporter)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CuentaTest.pruebaTimeout" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit5App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nikki.junitapp.ejemplos.models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nikki.junitapp.ejemplos.models" />
+      <option name="MAIN_CLASS_NAME" value="com.nikki.junitapp.ejemplos.models.CuentaTest" />
+      <option name="METHOD_NAME" value="pruebaTimeout" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tags (param )" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5App" />
       <extension name="coverage">
         <pattern>
@@ -86,16 +131,13 @@
       <option name="PACKAGE_NAME" value="com.nikki.junitapp.ejemplos.models" />
       <option name="MAIN_CLASS_NAME" value="com.nikki.junitapp.ejemplos.models.CuentaTest" />
       <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea NENV = dev" />
-      <envs>
-        <env name="ENVIROMENT" value="dev" />
-      </envs>
+      <option name="TEST_OBJECT" value="tags" />
+      <tag value="param" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CuentaTest.imprimirVariablesAmbiente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Tags (timeout )" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5App" />
       <extension name="coverage">
         <pattern>
@@ -105,53 +147,53 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.nikki.junitapp.ejemplos.models" />
       <option name="MAIN_CLASS_NAME" value="com.nikki.junitapp.ejemplos.models.CuentaTest" />
-      <option name="METHOD_NAME" value="imprimirVariablesAmbiente" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" value="pruebaTimeout2" />
+      <option name="TEST_OBJECT" value="tags" />
+      <tag value="timeout" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CuentaTest,testEnviroment and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit5App" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="com.nikki.junitapp.ejemplos.models.CuentaTest,testEnviroment" />
-        <pattern testClass="com.nikki.junitapp.ejemplos.models.CuentaTest,testNoEnviroment" />
-      </patterns>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CuentaTest.testJavaHome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit5App" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nikki.junitapp.ejemplos.models.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.nikki.junitapp.ejemplos.models" />
-      <option name="MAIN_CLASS_NAME" value="com.nikki.junitapp.ejemplos.models.CuentaTest" />
-      <option name="METHOD_NAME" value="testJavaHome" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="junit5App [test]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.CuentaTest" />
-      <item itemvalue="JUnit.CuentaTest.imprimirVariablesAmbiente" />
-      <item itemvalue="JUnit.CuentaTest.testJavaHome" />
-      <item itemvalue="JUnit.CuentaTest,testEnviroment and 1 more" />
+      <item itemvalue="JUnit.Tags (param )" />
+      <item itemvalue="JUnit.CuentaTest$CuentaTestNombreSaldo.testNombreCuenta" />
       <item itemvalue="JUnit.CuentaTest (1)" />
+      <item itemvalue="JUnit.CuentaTest.pruebaTimeout" />
+      <item itemvalue="JUnit.Tags (timeout )" />
+      <item itemvalue="Maven.junit5App [test]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Maven.junit5App [test]" />
+        <item itemvalue="JUnit.Tags (timeout )" />
+        <item itemvalue="JUnit.CuentaTest.pruebaTimeout" />
         <item itemvalue="JUnit.CuentaTest (1)" />
-        <item itemvalue="JUnit.CuentaTest" />
-        <item itemvalue="JUnit.CuentaTest,testEnviroment and 1 more" />
-        <item itemvalue="JUnit.CuentaTest.testJavaHome" />
-        <item itemvalue="JUnit.CuentaTest.imprimirVariablesAmbiente" />
+        <item itemvalue="JUnit.CuentaTest$CuentaTestNombreSaldo.testNombreCuenta" />
       </list>
     </recent_temporary>
   </component>
@@ -176,5 +218,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/junit5App$CuentaTest_pruebaTimeout.ic" NAME="CuentaTest.pruebaTimeout Coverage Results" MODIFIED="1682910731284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.nikki.junitapp.ejemplos.models.*</FILTER>
+    </SUITE>
   </component>
 </project>

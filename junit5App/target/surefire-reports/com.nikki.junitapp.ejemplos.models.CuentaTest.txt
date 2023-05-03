@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.nikki.junitapp.ejemplos.models.CuentaTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 3.091 s - in com.nikki.junitapp.ejemplos.models.CuentaTest
