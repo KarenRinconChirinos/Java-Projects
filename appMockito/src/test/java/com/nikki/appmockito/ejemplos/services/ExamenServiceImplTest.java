@@ -10,7 +10,9 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
+import org.mockito.invocation.InvocationOnMock;
 import org.mockito.junit.jupiter.MockitoExtension;
+import org.mockito.stubbing.Answer;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -24,6 +26,9 @@ import static org.mockito.Mockito.*;
 //habilitar anotaciones con
 @ExtendWith(MockitoExtension.class)
 class ExamenServiceImplTest {
+
+
+    //atributos de given
     @Mock
     ExamenRepository repository;
     @InjectMocks
@@ -93,10 +98,14 @@ class ExamenServiceImplTest {
 
     @Test
     void testNoExistePreguntasExamenVerify() {
+        //given
         when(repository.findAll()).thenReturn(Datos.EXAMENES);
         when(preguntaRepository.findPreguntasPorExamenId(anyLong())).thenReturn(Datos.PREGUNTAS);
+        //when - invocamos
         Examen examen = service.findExamenPorNombreConPreguntas("Historia");
         //assertEquals(5, examen.getPreguntas().size());
+
+        //then probamos
         assertTrue(examen.getPreguntas().contains("integrales"));
         verify(repository).findAll();
         verify(preguntaRepository).findPreguntasPorExamenId(5l);
@@ -104,10 +113,24 @@ class ExamenServiceImplTest {
 
     @Test
     void testguardarExamen() {
+        //TEST DEVELOP DRIVEN
+        //GIVEN(dado) - son las preondiciones en el entorno de prueba
         Examen newExamen = Datos.EXAMEN;
         newExamen.setPreguntas(Datos.PREGUNTAS);
-        when(repository.guardar(any(Examen.class))).thenReturn(Datos.EXAMEN);
+        when(repository.guardar(any(Examen.class))).then(new Answer<Examen>(){
+            Long secencia = 8L;
+            @Override
+            public Examen answer(InvocationOnMock invocationOnMock) throws Throwable {
+                Examen examen = invocationOnMock.getArgument(0);
+                examen.setId(secencia++);
+                return examen;
+            }
+        });
+        
+        //when - invocamos
         Examen examen = service.guardar(newExamen);
+
+        //then - probamos
         assertNotNull(examen.getId());
         assertEquals(8l, examen.getId());
         assertEquals("Fisica", examen.getNombre());
