@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32ecf3e5-ed17-4b83-b26f-21415bc65b7c" name="Changes" comment="" />
+    <list default="true" id="2899ef6b-17d1-4427-8f53-eb9a2d920886" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/webapp-tarea1/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp-tarea1/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp-tarea1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp-tarea1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp-tarea1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapp-tarea1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/src/main/java/com/nikki/webapp/servlet/ParametroGetServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/main/java/com/nikki/webapp/servlet/ParametroGetServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/target/classes/com/nikki/webapp/servlet/ParametroGetServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/target/classes/com/nikki/webapp/servlet/ParametroGetServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/target/webapp-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/target/webapp-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/target/webapp-1.0-SNAPSHOT/WEB-INF/classes/com/nikki/webapp/servlet/ParametroGetServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/target/webapp-1.0-SNAPSHOT/WEB-INF/classes/com/nikki/webapp/servlet/ParametroGetServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapp/target/webapp-1.0-SNAPSHOT/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/webapp/target/webapp-1.0-SNAPSHOT/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaSE/TExpresionLambdaVeces" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaSE/TExpresionLambdaVeces" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,13 +33,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectId" id="2PMSH8xBcPzGGOlBIkCiw4gqCWm" />
+  <component name="ProjectId" id="2PRdk2nirybJc8YuiWyq82RNGp6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,17 +45,27 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/webapp" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="32ecf3e5-ed17-4b83-b26f-21415bc65b7c" name="Changes" comment="" />
-      <created>1683265400150</created>
+      <changelist id="2899ef6b-17d1-4427-8f53-eb9a2d920886" name="Changes" comment="" />
+      <created>1683423972729</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1683265400150</updated>
+      <updated>1683423972729</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
