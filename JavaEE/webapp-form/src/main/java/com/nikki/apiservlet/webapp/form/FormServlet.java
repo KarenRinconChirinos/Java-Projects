@@ -8,16 +8,13 @@ import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 @WebServlet("/registro")
 public class FormServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html");
-
         String username = req.getParameter("username");
         String password = req.getParameter("password");
         String email = req.getParameter("email");
@@ -30,30 +27,33 @@ public class FormServlet extends HttpServlet {
                 req.getParameter("habilitar").equals("on");
         String secreto = req.getParameter("secreto");
 
-        List<String> errores = new ArrayList<>();
+        Map<String, String> errores = new HashMap<>();
+
         //isBlanck valida los espacios
         if(username == null || username.isBlank()){
-            errores.add("El username es requerido");
+            errores.put("username", "El username es requerido");
         }
         if (password == null || password.isBlank()){
-            errores.add("El password no puede ser vacio!");
+            errores.put("password", "El password no puede ser vacio!");
         }
         if(email == null || !email.contains("@")){
-            errores.add("El email es requerido y debe tener un formato de correo");
+            errores.put("email", "El email es requerido y debe tener un formato de correo");
         }
         if(pais == null || pais.equals("") || pais.equals(" ")){
-            errores.add("El pais es requerido");
+            errores.put("pais", "El pais es requerido");
         }
         if(lenguajes == null || lenguajes.length == 0){
-            errores.add("debe seleccionar al menos un tema.");
+            errores.put("lenguajes", "debe seleccionar al menos un tema.");
         }
         if(roles == null || roles.length == 0){
-            errores.add("Debe seleccionar al menos un rol");
+            errores.put("roles", "Debe seleccionar al menos un rol");
         }
         if(idioma == null){
-            errores.add("Debe seleccionar un idioma!");
+            errores.put("idioma", "Debe seleccionar un idioma!");
         }
-        try(PrintWriter out = resp.getWriter()) {
+        if(errores.isEmpty()) {
+
+            try(PrintWriter out = resp.getWriter()) {
 
             out.println("<!DOCTYPE html>");
             out.println("<html>");
@@ -64,7 +64,6 @@ public class FormServlet extends HttpServlet {
             out.println("    <body>");
             out.println("        <h1> Resultado Form  </h1>");
             out.println("        <ul>");
-            if(errores.isEmpty()) {
                 out.println("           <li> Username:  " + username + "  </li>");
                 out.println("           <li> Password:  " + password + "  </li>");
                 out.println("           <li> Email:  " + email + "  </li>");
@@ -85,18 +84,21 @@ public class FormServlet extends HttpServlet {
                 out.println("           <li> Habilitado:  " + habilitar + "  </li>");
                 out.println("           <li> Secreto:  " + secreto + "  </li>");
 
-            }else{
-                errores.forEach(e -> {
+                out.println("        </ul>");
+                out.println("    </body>");
+                out.println("</html>");
+            }
+        } else {
+                /*errores.forEach(e -> {
                     out.println("<li>" + e + "</li>");
                 });
                 //p de parrafo
-                out.println("<p><a href=\"/webapp-form/index.html\"> volver </a></p>");
-            }
-            out.println("        </ul>");
+                out.println("<p><a href=\"/webapp-form/index.jsp\"> volver </a></p>");*/
+            req.setAttribute("errores", errores);
+            getServletContext().getRequestDispatcher("/index.jsp").forward(req, resp);
 
-            out.println("    </body>");
-            out.println("</html>");
         }
+
 
     }
 }
