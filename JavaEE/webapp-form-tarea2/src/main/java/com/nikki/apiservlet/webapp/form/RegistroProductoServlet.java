@@ -26,6 +26,8 @@ public class RegistroProductoServlet extends HttpServlet {
         String name  = req.getParameter("nombre");
         String maker =  req.getParameter("fabricante");
         String price = req.getParameter("precio");
+        String category = req.getParameter("categoria");
+
         Map<String, String> errores = new HashMap<>();
         int price1;
         if( name == null || name.isBlank()){
@@ -50,6 +52,10 @@ public class RegistroProductoServlet extends HttpServlet {
             }
         }
 
+        if( category ==  null){
+            errores.put("categoria", "Debes seleccionar una categria");
+        }
+
         if(errores.isEmpty()) {
 
             try(PrintWriter out = resp.getWriter()) {
@@ -58,14 +64,15 @@ public class RegistroProductoServlet extends HttpServlet {
                 out.println("<html>");
                 out.println("    <head>");
                 out.println("        <meta charset=\"UTF-8\">");
-                out.println("        <title> Resultado Form </title>");
+                out.println("        <title> Resultado Form  de registro</title>");
                 out.println("    </head>");
                 out.println("    <body>");
-                out.println("        <h1> Resultado Form  </h1>");
+                out.println("        <h1> Resultado Form de registro </h1>");
                 out.println("        <ul>");
                 out.println("           <li> Nombre:  " + name + "  </li>");
                 out.println("           <li> Precio:  " + price + "  </li>");
                 out.println("           <li> Fabricante:  " + maker + "  </li>");
+                out.println("           <li> Idioma:  " + category + "  </li>");
                 out.println("        </ul>");
                 out.println("    </body>");
                 out.println("</html>");
@@ -77,7 +84,6 @@ public class RegistroProductoServlet extends HttpServlet {
                 //p de parrafo
                 out.println("<p><a href=\"/webapp-form/index.jsp\"> volver </a></p>");*/
             req.setAttribute("errores", errores);
-            getServletContext().getRequestDispatcher("/index.jsp").forward(req, resp);
 
         }
     }

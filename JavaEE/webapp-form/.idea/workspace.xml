@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3204988-fe0c-4e93-af11-9f375f90d3eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../webapp-form-tarea2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-form-tarea2/src/main/java/com/nikki/apiservlet/webapp/form/RegistroProductoServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../webapp-form-tarea2/src/main/webapp/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webapp-form-tarea2/src/main/java/com/nikki/apiservlet/webapp/form/RegistroProductoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp-form-tarea2/src/main/java/com/nikki/apiservlet/webapp/form/RegistroProductoServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webapp-form-tarea2/src/main/webapp/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../webapp-form-tarea2/src/main/webapp/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JavaSE/TExpresionLambdaVeces" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaSE/TExpresionLambdaVeces" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

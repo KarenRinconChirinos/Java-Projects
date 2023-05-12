@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de registro</title>
+</head>
+<body>
+    <h3>Formulario de registro</h3>
+    <form action="/webapp-form-tarea2/crear" method="post">
+        <div>
+            <label for="nombre" >Nombre</label>
+            <div>
+                <input type="text" name="nombre" id="nombre" value="">
+            </div>
+        </div>
+
+        <div>
+            <label for="precio" >Precio </label>
+            <div>
+                    <input type="text" name="precio" id="precio" value="">
+            </div>
+        </div>
+
+        <div>
+            <label for="fabricante" >Fabricante </label>
+            <div>
+                <input type="text" name="fabricante" id="fabricante" value="">
+            </div>
+        </div>
+
+
+        <div>
+            <label for="categoria" > Categoria </label>
+            <div>
+                <select name="categoria" id="categoria">
+                    <option value=""> -- seleccionar --  </option>
+                    <option value="ETS" > Electronicos </option>
+                    <option value="JTA" > Jugueteria </option>
+                    <option value="HGR" > Hogar </option>
+                </select>
+            </div>
+        </div>
+
+        <div>
+            <div><input type="submit" value="Enviar"></div>
+        </div>
+
+    </form>
+</body>
+</html>
