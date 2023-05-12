@@ -4,16 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.nikki.apiservlet.webapp.form</groupId>
-    <artifactId>webapp-form</artifactId>
+    <groupId>com.nikki.webapp.form.tarea2</groupId>
+    <artifactId>webapp-form-tarea2</artifactId>
     <version>1.0-SNAPSHOT</version>
-
     <packaging>war</packaging>
+
     <properties>
         <maven.compiler.source>18</maven.compiler.source>
         <maven.compiler.target>18</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
 
@@ -26,9 +24,7 @@
         </dependency>
     </dependencies>
 
-
     <build>
-        <finalName>${project.artifactId}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -55,4 +51,5 @@
 
         </plugins>
     </build>
+
 </project>

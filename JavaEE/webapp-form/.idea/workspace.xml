@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3204988-fe0c-4e93-af11-9f375f90d3eb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapp-form-tarea2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapp-form-tarea2/src/main/java/com/nikki/apiservlet/webapp/form/RegistroProductoServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webapp-form-tarea2/src/main/webapp/form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nikki/apiservlet/webapp/form/FormServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nikki/apiservlet/webapp/form/FormServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nikki/apiservlet/webapp/form/FormServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webapp-form.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webapp-form/WEB-INF/classes/com/nikki/apiservlet/webapp/form/FormServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webapp-form/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JavaSE/TExpresionLambdaVeces" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaSE/TExpresionLambdaVeces" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
