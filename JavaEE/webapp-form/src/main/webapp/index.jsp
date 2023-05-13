@@ -36,7 +36,8 @@
                     %>
         <div class="row mb-3">
             <label for="password" class="col-form-label col-sm-2" >Password</label>
-            <div class="col-sm-4"><input type="password" name="password" id="password" class="form-control"></div>
+            <div class="col-sm-4">
+            <input type="password" name="password" id="password" class="form-control"></div>
             <%
                 if(errores != null && errores.containsKey("password")){
                     out.println("<small class='alert alert-danger col-sn-4' style='color: red;'>" + errores.get("password") + "</small>");

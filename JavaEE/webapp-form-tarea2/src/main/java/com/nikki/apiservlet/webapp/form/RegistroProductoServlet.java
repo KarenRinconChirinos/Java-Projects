@@ -13,11 +13,13 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
+import static java.lang.Integer.parseInt;
+
 @WebServlet("/crear")
 public class RegistroProductoServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        super.doGet(req, resp);
+        getServletContext().getRequestDispatcher("/index.jsp").forward(req, resp);
     }
 
     @Override
@@ -27,8 +29,8 @@ public class RegistroProductoServlet extends HttpServlet {
         String maker =  req.getParameter("fabricante");
         String price = req.getParameter("precio");
         String category = req.getParameter("categoria");
-
         Map<String, String> errores = new HashMap<>();
+
         int price1;
         if( name == null || name.isBlank()){
             errores.put("nombre","El nombre no puede estar vacio");
@@ -38,7 +40,6 @@ public class RegistroProductoServlet extends HttpServlet {
         }else{
             try {
                 price1 = Integer.parseInt(price);
-                errores.put("precio","El precio es un entero");
             }catch (NumberFormatException e){
                 errores.put("precio","El precio no es un entero");
             }
@@ -52,8 +53,8 @@ public class RegistroProductoServlet extends HttpServlet {
             }
         }
 
-        if( category ==  null){
-            errores.put("categoria", "Debes seleccionar una categria");
+        if( category == null){
+            errores.put("categoria", "Debes seleccionar una categoria");
         }
 
         if(errores.isEmpty()) {
@@ -72,19 +73,14 @@ public class RegistroProductoServlet extends HttpServlet {
                 out.println("           <li> Nombre:  " + name + "  </li>");
                 out.println("           <li> Precio:  " + price + "  </li>");
                 out.println("           <li> Fabricante:  " + maker + "  </li>");
-                out.println("           <li> Idioma:  " + category + "  </li>");
+                out.println("           <li> Categoria:  " + category + "  </li>");
                 out.println("        </ul>");
                 out.println("    </body>");
                 out.println("</html>");
             }
         } else {
-                /*errores.forEach(e -> {
-                    out.println("<li>" + e + "</li>");
-                });
-                //p de parrafo
-                out.println("<p><a href=\"/webapp-form/index.jsp\"> volver </a></p>");*/
             req.setAttribute("errores", errores);
-
+            getServletContext().getRequestDispatcher("/index.jsp").forward(req, resp);
         }
     }
 }
