@@ -1,4 +1,4 @@
-package com.nikki.apiservlet.webapp.headers;
+package com.nikki.apiservlet.webapp.headers.controllers;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;

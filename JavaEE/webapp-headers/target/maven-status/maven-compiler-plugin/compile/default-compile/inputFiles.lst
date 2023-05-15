@@ -1,1 +1,6 @@
-C:\Users\cabal\projects_git\JavaEE\webapp-headers\src\main\java\com\nikki\apiservlet\webapp\headers\CabecerasHttpRequestServlet.java
+C:\Users\cabal\projects_git\JavaEE\webapp-headers\src\main\java\com\nikki\apiservlet\webapp\headers\models\Producto.java
+C:\Users\cabal\projects_git\JavaEE\webapp-headers\src\main\java\com\nikki\apiservlet\webapp\headers\services\ProductoService.java
+C:\Users\cabal\projects_git\JavaEE\webapp-headers\src\main\java\com\nikki\apiservlet\webapp\headers\services\ProductoServiceImpl.java
+C:\Users\cabal\projects_git\JavaEE\webapp-headers\src\main\java\com\nikki\apiservlet\webapp\headers\controllers\CabecerasHttpRequestServlet.java
+C:\Users\cabal\projects_git\JavaEE\webapp-headers\src\main\java\com\nikki\apiservlet\webapp\headers\controllers\ProductosJsonServlet.java
+C:\Users\cabal\projects_git\JavaEE\webapp-headers\src\main\java\com\nikki\apiservlet\webapp\headers\controllers\ProductoXlsServlet.java
