@@ -1,6 +1,9 @@
 com\nikki\apiservlet\webapp\headers\controllers\CabecerasHttpRequestServlet.class
+com\nikki\apiservlet\webapp\headers\controllers\ProductoXlsServlet.class
+com\nikki\apiservlet\webapp\headers\controllers\RedirigirServlet.class
+com\nikki\apiservlet\webapp\headers\controllers\HoraActualizadaServlet.class
 com\nikki\apiservlet\webapp\headers\models\Producto.class
 com\nikki\apiservlet\webapp\headers\controllers\ProductosJsonServlet.class
 com\nikki\apiservlet\webapp\headers\services\ProductoService.class
-com\nikki\apiservlet\webapp\headers\controllers\ProductoXlsServlet.class
+com\nikki\apiservlet\webapp\headers\controllers\DespacharServlet.class
 com\nikki\apiservlet\webapp\headers\services\ProductoServiceImpl.class
